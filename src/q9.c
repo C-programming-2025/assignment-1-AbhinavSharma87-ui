@@ -1,4 +1,12 @@
-// Input a number representing days and print the equivalent number of weeks and days.
-// Example: 
-// Input = 10
-// Output = "1 week and 3 days"
+
+#include <stdio.h>
+int main()
+{
+    int num, week, day;
+    printf("enter the number of days: ");
+    scanf("%d", &num);
+    week = num / 7;
+    day = num % 7;
+    printf("%d week and %d days", week, day);
+    return 0;
+}
