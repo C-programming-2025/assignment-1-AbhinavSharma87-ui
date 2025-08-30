@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int l,b,h,a;
-    printf("Enter length breadth and height");
-    scanf("%d %d %d",&l,&b,&h);
-    a=l*b*h;
+    int l,b,a;
+    printf("Enter length breadth ");
+    scanf("%d %d",&l,&b);
+    a=l*b;
     printf("%d\n",a);
     return 0; 
 }
